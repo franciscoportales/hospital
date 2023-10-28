@@ -1,0 +1,445 @@
+CRITICAL - 2023-08-07 02:12:43 --> Undefined constant "Config\routes"
+in APPPATH\Config\Routes.php on line 60.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 07:56:28 --> Undefined variable $fila
+in APPPATH\Views\vista_regiones.php on line 93.
+ 1 APPPATH\Views\vista_regiones.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fila', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_regiones.php', 93)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_regiones.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_regiones', [], true)
+ 5 APPPATH\Controllers\ControllerRegiones.php(14): view('vista_regiones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->cargarRegiones()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:05:37 --> Undefined constant "App\Controllers\datosderegion"
+in APPPATH\Controllers\ControllerRegiones.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->localizarRegion('9')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:07:24 --> Undefined constant "App\Controllers\datosderegion"
+in APPPATH\Controllers\ControllerRegiones.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->localizarRegion('9')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:09:58 --> Undefined constant "App\Controllers\datosderegion"
+in APPPATH\Controllers\ControllerRegiones.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->localizarRegion('9')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:46:20 --> Call to undefined function confirmarEliminacion()
+in APPPATH\Views\vista_regiones.php on line 109.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_regiones', [], true)
+ 4 APPPATH\Controllers\ControllerRegiones.php(14): view('vista_regiones', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->cargarRegiones()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 09:17:33 --> Undefined array key "cod_region"
+in APPPATH\Views\vista_ciudadanos.php on line 51.
+ 1 APPPATH\Views\vista_ciudadanos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cod_region"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(15): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:14:46 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_ciudadanos.php on line 102.
+ 1 APPPATH\Views\vista_ciudadanos.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(45): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:15:24 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_ciudadanos.php on line 102.
+ 1 APPPATH\Views\vista_ciudadanos.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(45): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:16:03 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_ciudadanos.php on line 102.
+ 1 APPPATH\Views\vista_ciudadanos.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(44): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:22:00 --> syntax error, unexpected token "return", expecting ")"
+in APPPATH\Controllers\ControllerCiudadano.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerCiudadano.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerCiudadano')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerCiudadano')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerCiudadano', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:22:23 --> syntax error, unexpected token "return", expecting ")"
+in APPPATH\Controllers\ControllerCiudadano.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerCiudadano.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerCiudadano')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerCiudadano')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerCiudadano', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:24:29 --> syntax error, unexpected token "return", expecting ")"
+in APPPATH\Controllers\ControllerCiudadano.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerCiudadano.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerCiudadano')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerCiudadano')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerCiudadano', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:24:56 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_ciudadanos.php on line 102.
+ 1 APPPATH\Views\vista_ciudadanos.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(44): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:26:11 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_ciudadanos.php on line 102.
+ 1 APPPATH\Views\vista_ciudadanos.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(44): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:26:13 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_ciudadanos.php on line 102.
+ 1 APPPATH\Views\vista_ciudadanos.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(44): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:27:21 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_ciudadanos.php on line 102.
+ 1 APPPATH\Views\vista_ciudadanos.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(44): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:27:43 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_ciudadanos.php on line 102.
+ 1 APPPATH\Views\vista_ciudadanos.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_ciudadanos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_ciudadanos', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(44): view('vista_ciudadanos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:29:07 --> Class "App\Models\Municipios" not found
+in APPPATH\Controllers\ControllerCiudadano.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:29:53 --> Class "App\Models\Municipios" not found
+in APPPATH\Controllers\ControllerCiudadano.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:33:44 --> Class "App\Controllers\Municipio" not found
+in APPPATH\Controllers\ControllerCiudadano.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 10:34:41 --> Class "App\Controllers\Municipio" not found
+in APPPATH\Controllers\ControllerCiudadano.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->cargarCiudadanos()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 11:13:38 --> syntax error, unexpected single-quoted string "email", expecting "]"
+in APPPATH\Controllers\ControllerCiudadano.php on line 64.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerCiudadano.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerCiudadano')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerCiudadano')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerCiudadano', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 11:17:53 --> Class "App\Models\Ciudadanoup" not found
+in APPPATH\Controllers\ControllerCiudadano.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->guardarCiudadano()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 11:19:53 --> Class "App\Models\Ciudadanoup" not found
+in APPPATH\Controllers\ControllerCiudadano.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->guardarCiudadano()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 11:34:47 --> Object of class App\Models\Regiones could not be converted to string
+in APPPATH\Controllers\ControllerRegiones.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->guardarRegion()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 11:36:00 --> Object of class App\Models\Regiones could not be converted to string
+in APPPATH\Controllers\ControllerRegiones.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->guardarRegion()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-07 11:45:48 --> mysqli_sql_exception: Duplicate entry '2680582100101' for key 'PRIMARY' in C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4_ciudadanos_repaso\app\Controllers\ControllerCiudadano.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->guardarCiudadano()
+#9 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+#10 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4_ciudadanos_repaso\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-07 11:45:49 --> Duplicate entry '2680582100101' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ciudadanos` (`dpi`, `nombre`, `apellido`, `direccion`, `tel_casa`, `tel_movil`, `email`, `fechanac`, `cod_nivel_acad`) VALUES (\'2680582100101\', \'José Francisco\', \'Portales Solval\', \'guatemala\', \'55555555\', \'55555555\', \'jose@mail.com\', \'1969-09-21\', \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ciudadanos` (`dpi`, `nombre`, `apellido`, `direccion`, `tel_casa`, `tel_movil`, `email`, `fechanac`, `cod_nivel_acad`) VALUES (\'2680582100101\', \'José Francisco\', \'Portales Solval\', \'guatemala\', \'55555555\', \'55555555\', \'jose@mail.com\', \'1969-09-21\', \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ciudadanos` (`dpi`, `nombre`, `apellido`, `direccion`, `tel_casa`, `tel_movil`, `email`, `fechanac`, `cod_nivel_acad`) VALUES (\'2680582100101\', \'José Francisco\', \'Portales Solval\', \'guatemala\', \'55555555\', \'55555555\', \'jose@mail.com\', \'1969-09-21\', \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ciudadanos` (`dpi`, `nombre`, `apellido`, `direccion`, `tel_casa`, `tel_movil`, `email`, `fechanac`, `cod_nivel_acad`) VALUES (:dpi:, :nombre:, :apellido:, :direccion:, :tel_casa:, :tel_movil:, :email:, :fechanac:, :cod_nivel_acad:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerCiudadano.php(73): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->guardarCiudadano()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 11:48:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\frm_actualizar_region.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_region.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_region', [], true)
+ 5 APPPATH\Controllers\ControllerRegiones.php(69): view('frm_actualizar_region', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->localizarRegion('2238753981803')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:11:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\frm_actualizar_region.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_region.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_region', [], true)
+ 5 APPPATH\Controllers\ControllerRegiones.php(69): view('frm_actualizar_region', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->localizarRegion('2680582100101')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:21:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\frm_actualizar_region.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_region.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_region', [], true)
+ 5 APPPATH\Controllers\ControllerRegiones.php(61): view('frm_actualizar_region', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->localizarRegion('3713887530512')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:23:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\frm_actualizar_region.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_region.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_region', [], true)
+ 5 APPPATH\Controllers\ControllerRegiones.php(61): view('frm_actualizar_region', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->localizarRegion('3713887530512')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:27:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\frm_actualizar_region.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_region.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_region.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_region', [], true)
+ 5 APPPATH\Controllers\ControllerRegiones.php(61): view('frm_actualizar_region', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerRegiones->localizarRegion('3713887530512')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerRegiones))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:28:11 --> Undefined variable $resultadoniveles
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 80.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(99): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('3096987621409')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:30:56 --> Undefined variable $resultadoCiudadano
+in APPPATH\Controllers\ControllerCiudadano.php on line 111.
+ 1 APPPATH\Controllers\ControllerCiudadano.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoCiudadano', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerCiudadano.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('3096987621409')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:31:22 --> Undefined variable $datosciudadano
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 29.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosciudadano', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('3096987621409')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:32:16 --> Undefined array key "dpi"
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 29.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dpi"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('3096987621409')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:35:47 --> Undefined array key "dpi"
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 29.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dpi"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('3096987621409')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 12:36:04 --> Undefined array key "dpi"
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 29.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dpi"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('4437930570719')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 13:10:15 --> Undefined array key "cod_muni"
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 106.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cod_muni"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 106)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('1773370600310')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 13:10:45 --> Undefined variable $munis
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 106.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $munis', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 106)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('4437930570719')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 13:12:23 --> Undefined array key "nombre"
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 109.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 109)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('4437930570719')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 13:13:43 --> Undefined array key "nombre"
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 109.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 109)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('4437930570719')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 13:13:57 --> Undefined array key "nombre"
+in APPPATH\Views\frm_actualizar_ciudadano.php on line 109.
+ 1 APPPATH\Views\frm_actualizar_ciudadano.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php', 109)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_ciudadano', [], true)
+ 5 APPPATH\Controllers\ControllerCiudadano.php(116): view('frm_actualizar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->localizarCiudadano('3096987621409')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 13:24:22 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\ControllerCiudadano.php(146): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->modificarCiudadano()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 13:28:25 --> Class "App\Controllers\Regiones" not found
+in APPPATH\Controllers\ControllerCiudadano.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->eliminarCiudadano('2680582100101')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

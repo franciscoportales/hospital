@@ -1,0 +1,567 @@
+CRITICAL - 2023-08-09 04:51:35 --> Undefined variable $resultadomuniscipios
+in APPPATH\Views\vista_departamentos.php on line 64.
+ 1 APPPATH\Views\vista_departamentos.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadomuniscipios', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 04:51:55 --> Undefined variable $resultadomuniscipios
+in APPPATH\Views\vista_departamentos.php on line 64.
+ 1 APPPATH\Views\vista_departamentos.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadomuniscipios', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 04:52:46 --> Undefined variable $resultadoregiones
+in APPPATH\Views\vista_departamentos.php on line 64.
+ 1 APPPATH\Views\vista_departamentos.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoregiones', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 04:54:11 --> Undefined variable $resultadoregiones
+in APPPATH\Views\vista_departamentos.php on line 64.
+ 1 APPPATH\Views\vista_departamentos.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoregiones', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 04:55:24 --> Unmatched '}'
+in APPPATH\Views\vista_departamentos.php on line 128.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 3 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 04:55:47 --> Undefined variable $resultadoregiones
+in APPPATH\Views\vista_departamentos.php on line 64.
+ 1 APPPATH\Views\vista_departamentos.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoregiones', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 04:56:34 --> Undefined variable $resultadoregiones
+in APPPATH\Views\vista_departamentos.php on line 64.
+ 1 APPPATH\Views\vista_departamentos.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoregiones', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 04:56:37 --> Undefined variable $resultadoregiones
+in APPPATH\Views\vista_departamentos.php on line 64.
+ 1 APPPATH\Views\vista_departamentos.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoregiones', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 04:57:33 --> Undefined variable $region
+in APPPATH\Views\vista_departamentos.php on line 66.
+ 1 APPPATH\Views\vista_departamentos.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $region', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_departamentos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_departamentos', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(15): view('vista_departamentos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:27:27 --> syntax error, unexpected identifier "resultadoregiones", expecting "function" or "const"
+in APPPATH\Controllers\ControllerDepartamentos.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerDepartamentos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerDepartamentos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerDepartamentos')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerDepartamentos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:27:57 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\ControllerDepartamentos.php on line 120.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerDepartamentos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerDepartamentos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerDepartamentos')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerDepartamentos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:28:30 --> Undefined variable $codigo
+in APPPATH\Controllers\ControllerDepartamentos.php on line 15.
+ 1 APPPATH\Controllers\ControllerDepartamentos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $codigo', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerDepartamentos.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:30:41 --> Class "App\Controllers\Regiones" not found
+in APPPATH\Controllers\ControllerDepartamentos.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->cargarDepartamentos()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:40:49 --> Class "App\Controllers\Departamento" not found
+in APPPATH\Controllers\ControllerDepartamentos.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:42:23 --> Class "App\Controllers\Departamento" not found
+in APPPATH\Controllers\ControllerDepartamentos.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:43:48 --> Class "App\Models\Departamentos" not found
+in APPPATH\Controllers\ControllerDepartamentos.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:50:31 --> Class "App\Controllers\Departamentos" not found
+in APPPATH\Controllers\ControllerDepartamentos.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->localizarDepartamento('50')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:50:55 --> Undefined array key "nombre"
+in APPPATH\Views\frm_actualizar_departamento.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_departamento.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_departamento.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_departamento.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_departamento', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(117): view('frm_actualizar_departamento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->localizarDepartamento('50')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:52:22 --> Undefined variable $resultadoniveles
+in APPPATH\Views\frm_actualizar_departamento.php on line 43.
+ 1 APPPATH\Views\frm_actualizar_departamento.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_departamento.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_departamento.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_departamento', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(117): view('frm_actualizar_departamento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->localizarDepartamento('50')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:53:40 --> Undefined variable $resultadoniveles
+in APPPATH\Views\frm_actualizar_departamento.php on line 43.
+ 1 APPPATH\Views\frm_actualizar_departamento.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_departamento.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_departamento.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_departamento', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(117): view('frm_actualizar_departamento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->localizarDepartamento('50')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-09 05:54:00 --> mysqli_sql_exception: Duplicate entry '50' for key 'PRIMARY' in C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4_ciudadanos_repaso\app\Controllers\ControllerDepartamentos.php(47): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+#9 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+#10 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4_ciudadanos_repaso\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-09 05:54:00 --> Duplicate entry '50' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (:cod_depto:, :nombre_depto:, :cod_region:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerDepartamentos.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 05:54:09 --> Undefined variable $resultadoniveles
+in APPPATH\Views\frm_actualizar_departamento.php on line 43.
+ 1 APPPATH\Views\frm_actualizar_departamento.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_departamento.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_departamento.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_departamento', [], true)
+ 5 APPPATH\Controllers\ControllerDepartamentos.php(117): view('frm_actualizar_departamento', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->localizarDepartamento('50')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-09 05:55:21 --> mysqli_sql_exception: Duplicate entry '50' for key 'PRIMARY' in C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4_ciudadanos_repaso\app\Controllers\ControllerDepartamentos.php(47): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+#9 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+#10 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4_ciudadanos_repaso\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-09 05:55:21 --> Duplicate entry '50' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'werdfsdfds\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'werdfsdfds\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'werdfsdfds\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (:cod_depto:, :nombre_depto:, :cod_region:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerDepartamentos.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-09 05:58:44 --> mysqli_sql_exception: Duplicate entry '50' for key 'PRIMARY' in C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4_ciudadanos_repaso\app\Controllers\ControllerDepartamentos.php(47): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+#9 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+#10 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4_ciudadanos_repaso\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-09 05:58:44 --> Duplicate entry '50' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (:cod_depto:, :nombre_depto:, :cod_region:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerDepartamentos.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-09 05:59:27 --> mysqli_sql_exception: Duplicate entry '50' for key 'PRIMARY' in C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4_ciudadanos_repaso\app\Controllers\ControllerDepartamentos.php(47): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+#9 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+#10 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4_ciudadanos_repaso\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-09 05:59:27 --> Duplicate entry '50' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (\'50\', \'wer\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `departamentos` (`cod_depto`, `nombre_depto`, `cod_region`) VALUES (:cod_depto:, :nombre_depto:, :cod_region:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerDepartamentos.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerDepartamentos->guardarDepartamento()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerDepartamentos))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:26:51 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\ControllerCiudadano.php on line 135.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerCiudadano.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerCiudadano')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerCiudadano')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerCiudadano', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 06:45:41 --> Undefined variable $datos
+in APPPATH\Views\vista_niveles_academicos.php on line 49.
+ 1 APPPATH\Views\vista_niveles_academicos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_niveles_academicos', [], true)
+ 5 APPPATH\Controllers\ControllerNivelesAcademicos.php(12): view('vista_niveles_academicos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerNivelesAcademicos->cargarNiveles()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:10:12 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_municipios.php on line 100.
+ 1 APPPATH\Views\vista_municipios.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_municipios.php', 100)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_municipios.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_municipios', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(14): view('vista_municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->cargarMunicipios()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:14:57 --> Undefined variable $resultadoniveles
+in APPPATH\Views\vista_municipios.php on line 100.
+ 1 APPPATH\Views\vista_municipios.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoniveles', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_municipios.php', 100)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_municipios.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_municipios', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(14): view('vista_municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->cargarMunicipios()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:24:08 --> syntax error, unexpected token "class"
+in APPPATH\Controllers\ControllerMunicipios.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerMunicipios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerMunicipios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerMunicipios')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerMunicipios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:24:30 --> syntax error, unexpected token "return", expecting ")"
+in APPPATH\Controllers\ControllerMunicipios.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerMunicipios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControllerMunicipios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControllerMunicipios')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControllerMunicipios', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:25:54 --> Class "App\Controllers\Departamentos" not found
+in APPPATH\Controllers\ControllerMunicipios.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->cargarMunicipios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:26:07 --> Undefined array key "cod_muni"
+in APPPATH\Views\vista_municipios.php on line 113.
+ 1 APPPATH\Views\vista_municipios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cod_muni"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_municipios.php', 113)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\vista_municipios.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_municipios', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(24): view('vista_municipios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->cargarMunicipios()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-09 07:28:38 --> mysqli_sql_exception: Column 'dpi' cannot be null in C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4_ciudadanos_repaso\app\Controllers\ControllerCiudadano.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->guardarCiudadano()
+#9 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+#10 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4_ciudadanos_repaso\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-09 07:28:38 --> Column 'dpi' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ciudadanos` (`dpi`, `nombre`, `apellido`, `direccion`, `tel_casa`, `tel_movil`, `email`, `fechanac`, `cod_nivel_acad`, `cod_muni`) VALUES (NULL, \'fff\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ciudadanos` (`dpi`, `nombre`, `apellido`, `direccion`, `tel_casa`, `tel_movil`, `email`, `fechanac`, `cod_nivel_acad`, `cod_muni`) VALUES (NULL, \'fff\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ciudadanos` (`dpi`, `nombre`, `apellido`, `direccion`, `tel_casa`, `tel_movil`, `email`, `fechanac`, `cod_nivel_acad`, `cod_muni`) VALUES (NULL, \'fff\', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ciudadanos` (`dpi`, `nombre`, `apellido`, `direccion`, `tel_casa`, `tel_movil`, `email`, `fechanac`, `cod_nivel_acad`, `cod_muni`) VALUES (:dpi:, :nombre:, :apellido:, :direccion:, :tel_casa:, :tel_movil:, :email:, :fechanac:, :cod_nivel_acad:, :cod_muni:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerCiudadano.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->guardarCiudadano()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:32:30 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\ControllerMunicipios.php(46): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->guardarMunicipio()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:33:46 --> Undefined variable $departamento
+in APPPATH\Controllers\ControllerMunicipios.php on line 46.
+ 1 APPPATH\Controllers\ControllerMunicipios.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departamento', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerMunicipios.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->guardarMunicipio()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-09 07:37:57 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ci4_ciudadanos_repaso\app\Controllers\ControllerMunicipios.php(45): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->guardarMunicipio()
+#9 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+#10 C:\xampp\htdocs\ci4_ciudadanos_repaso\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4_ciudadanos_repaso\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-09 07:37:57 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `municipios` (`nombre_municipio`) VALUES (\'wer\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `municipios` (`nombre_municipio`) VALUES (\'wer\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `municipios` (`nombre_municipio`) VALUES (\'wer\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `municipios` (`nombre_municipio`) VALUES (:nombre_municipio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ControllerMunicipios.php(45): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->guardarMunicipio()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:58:26 --> Undefined variable $resultadoMunicipios
+in APPPATH\Views\frm_actualizar_municipio.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_municipio.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoMunicipios', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_municipio', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(55): view('frm_actualizar_municipio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->localizarMunicipio('1018')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 07:59:58 --> Undefined variable $resultadoMunicipios
+in APPPATH\Views\frm_actualizar_municipio.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_municipio.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoMunicipios', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_municipio', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(55): view('frm_actualizar_municipio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->localizarMunicipio('1018')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:02:55 --> Undefined variable $resultadoDepartamento
+in APPPATH\Views\frm_actualizar_municipio.php on line 41.
+ 1 APPPATH\Views\frm_actualizar_municipio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoDepartamento', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_municipio', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(55): view('frm_actualizar_municipio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->localizarMunicipio('1018')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:03:00 --> Undefined variable $resultadoDepartamento
+in APPPATH\Views\frm_actualizar_municipio.php on line 41.
+ 1 APPPATH\Views\frm_actualizar_municipio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoDepartamento', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_municipio', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(55): view('frm_actualizar_municipio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->localizarMunicipio('1018')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:03:49 --> Undefined variable $resultadoDepartamento
+in APPPATH\Views\frm_actualizar_municipio.php on line 41.
+ 1 APPPATH\Views\frm_actualizar_municipio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoDepartamento', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_municipio', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(55): view('frm_actualizar_municipio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->localizarMunicipio('1018')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:04:25 --> Undefined variable $resultadoDepartamento
+in APPPATH\Views\frm_actualizar_municipio.php on line 41.
+ 1 APPPATH\Views\frm_actualizar_municipio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoDepartamento', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_municipio', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(55): view('frm_actualizar_municipio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->localizarMunicipio('1018')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:05:04 --> Undefined variable $resultadoDepartamento
+in APPPATH\Views\frm_actualizar_municipio.php on line 41.
+ 1 APPPATH\Views\frm_actualizar_municipio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoDepartamento', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_municipio', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(55): view('frm_actualizar_municipio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->localizarMunicipio('1018')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:08:31 --> Undefined array key "cod_muni"
+in APPPATH\Views\frm_actualizar_municipio.php on line 28.
+ 1 APPPATH\Views\frm_actualizar_municipio.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cod_muni"', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Views\\frm_actualizar_municipio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('frm_actualizar_municipio', [], true)
+ 5 APPPATH\Controllers\ControllerMunicipios.php(65): view('frm_actualizar_municipio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->localizarMunicipio('1018')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 08:11:01 --> Undefined variable $Municipio
+in APPPATH\Controllers\ControllerMunicipios.php on line 82.
+ 1 APPPATH\Controllers\ControllerMunicipios.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Municipio', 'C:\\xampp\\htdocs\\ci4_ciudadanos_repaso\\app\\Controllers\\ControllerMunicipios.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerMunicipios->modificarMunicipio()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerMunicipios))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-09 09:23:16 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete('0', false)
+ 3 APPPATH\Controllers\ControllerCiudadano.php(82): CodeIgniter\BaseModel->delete('0')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerCiudadano->eliminarCiudadano('0')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerCiudadano))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
