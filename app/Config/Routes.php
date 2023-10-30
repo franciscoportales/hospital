@@ -48,6 +48,15 @@ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
 
+//localizar_modificar_paciente
+
+$routes->get('verPacientes','ControllerPacientes::cargarPacientes');
+$routes->get('localizar_modificar_paciente/(:num)','ControllerPacientes::localizarPaciente/$1');// para modificar abre forma con datos para actualizar
+$routes->get('eliminar_paciente/(:num)','ControllerPacientes::eliminarPaciente/$1');
+$routes->post('modificar_paciente','ControllerPacientes::modificarPaciente');
+$routes->post('guardar_paciente','ControllerPacientes::guardarPaciente');
+
+
 
 $routes->get('irmenuadministracion', 'home::iradministracion');
 $routes->get('irmenusecretaria', 'home::irsecretaria');
@@ -98,12 +107,3 @@ $routes->post('guardar_muni','ControllerMunicipios::guardarMunicipio');
 $routes->get('eliminar_muni/(:num)','ControllerMunicipios::eliminarMunicipio/$1');
 $routes->get('localizar_modificar_muni/(:num)','ControllerMunicipios::localizarMunicipio/$1');
 $routes->post('modificar_muni','ControllerMunicipios::modificarMunicipio');
-
-
-
-
-
-
-
-
-

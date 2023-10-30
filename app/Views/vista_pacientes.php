@@ -16,173 +16,142 @@
 
 <body>
     <?php include ("MENU.php"); ?>
-    <div class="container-fluid">
+    <div class="container">
+
+        <div class="col-12 offset-1">
+            <h1>Pacientes</h1>
+            <!-- Button trigger modal -->
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#regionModal"> <i
+                    class="fa fa-plus"></i>
+                Agregar Nuevo Paciente
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="regionModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Agregar Nuevo Paciente</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
 
 
-        <h1>Ciudadanos</h1>
-        <!-- Button trigger modal -->
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#regionModal"> <i
-                class="fa fa-plus"></i>
-            Agregar Nuevo Ciudadano
-        </button>
+                            <form action="<?=base_url('guardar_paciente')?>" method='post'>
 
-        <!-- Modal -->
-        <div class="modal fade" id="regionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Agregar Nuevo Ciudadano</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
+                                <h4>Datos Personales</h4>
 
-                        <form action="<?=base_url('guardar_ciudadano')?>" method='post'>
 
-                            <div class="mb-3">
+                                <!-- Nombre y Apellidos -->
+
+                                <div class="mb-3" style="display: flex;">
+
+                                    <div style="margin-right: 10px;">
+                                        <label for="txtnombre1" class="form-label">Nombre1</label>
+                                        <input type="text" class="form-control" id="txtnombre1" name="txtnombre1"
+                                            placeholder="nombre1" required>
+                                    </div>
+
+                                    <div style="margin-right: 10px;">
+                                        <label for="txtnombre2" class="form-label">Nombre2</label>
+                                        <input type="text" class="form-control" id="txtnombre2" name="txtnombre2"
+                                            placeholder="nombre2">
+                                    </div>
+
+                                    <div style="margin-right: 10px;">
+                                        <label for="txtnombre3" class="form-label">Nombre3</label>
+                                        <input type="text" class="form-control" id="txtnombre3" name="txtnombre3"
+                                            placeholder="nombre3">
+                                    </div>
+
+                                </div>
+                                <div class="mb-3" style="display: flex;">
+
+                                    <div style="margin-right: 10px;">
+                                        <label for="txtapellido1" class="form-label">Apellido1</label>
+                                        <input type="text" class="form-control" id="txtapellido1" name="txtapellido1"
+                                            placeholder="apellido1" required>
+                                    </div>
+                                    <div style="margin-right: 10px;">
+                                        <label for="txtapellido2" class="form-label">Apellido2</label>
+                                        <input type="text" class="form-control" id="txtapellido2" name="txtapellido2"
+                                            placeholder="apellido2">
+                                    </div>
+                                </div>
+
+
+
+
+                        </div>
+
+                        <div class="mb-3" style="display: flex;">
+
+                            <div style="margin-right: 10px;">
                                 <label for="txtdpi" class="form-label">Dpi</label>
-                                <input type="number" class="form-control" id="txtdpi" name="txtdpi" placeholder="dpi" required>
+                                <input type="number" class="form-control" id="txtdpi" name="txtdpi" placeholder="dpi">
                             </div>
-
-                            <div class="mb-3">
-                                <label for="txtnombre" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="txtnombre" name="txtnombre"
-                                    placeholder="nombre" required>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="txtapellido" class="form-label">Apellido</label>
-                                <input type="text" class="form-control" id="txtapellido" name="txtapellido"
-                                    placeholder="apellido" required>
+                            <div style="margin-right: 10px;">
+                                <label for="txttelefono" class="form-label">Teléfono</label>
+                                <input type="number" class="form-control" id="txttelefono" name="txttelefono"
+                                    placeholder="telefono de casa" required>
                             </div>
 
 
-                            <div class="mb-3">
-                                <label for="txtdireccion" class="form-label">Dirección</label>
-                                <input type="text" class="form-control" id="txtdireccion" name="txtdireccion"
-                                    placeholder="direccion" required>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="txttelcasa" class="form-label">Teléfono de Casa</label>
-                                <input type="number" class="form-control" id="txttelcasa" name="txttelcasa"
-                                    placeholder="telefono de casa">
-                            </div>
-
-
-                            <div class="mb-3">
-                                <label for="txtmovil" class="form-label">Teléfono Movil</label>
-                                <input type="number" class="form-control" id="txtmovil" name="txtmovil"
-                                    placeholder="telefono movil" >
-                            </div>
-
-                    
-
-                            <div class="mb-3">
-                                <label for="txtemail" class="form-label">E-mail</label>
-                                <input type="text" class="form-control" id="txtemail" name="txtemail"
-                                    placeholder="correo">
-                            </div>
-
-                            <div class="mb-3">
+                            <div style="margin-right: 10px;">
                                 <label for="txtfechanacimiento" class="form-label">Fecha de Nacimiento</label>
                                 <input type="date" class="form-control" id="txtfechanacimiento"
                                     name="txtfechanacimiento" placeholder="fecha de nacimiento" required>
                             </div>
 
-                            <div class="mb-3">
-                                <label for="lst_nivel_aca" class="form-label">Nivel Academico:</label>
-                                <select class="form-select" aria-label="Default select example" name="lst_nivel_aca">
-                                    <?php
-                                      foreach ($resultadoniveles as $niveles) {
-                                     ?>
-                                    <option value="<?= $niveles['cod_nivel_acad'] ?>"><?= $niveles['nombre'] ?></option>
-                                    <?php
-                                                                }
-                                        ?>
+                        </div>
+                        <div class="mb-3">
 
-                                  </select>
-                             </div>
+                            <input type="submit" class="form-control btn btn-success" id="btn_guardar"
+                                name='btn_guardar' value='Guardar'>
 
-
-                             <div class="mb-3">
-                                <label for="lst_municipio" class="form-label">Municipio:</label>
-                                <select class="form-select" aria-label="Default select example" name="lst_municipio">
-                                    <?php
-                                      foreach ($resultadomuniscipios as $munis) {
-                                     ?>
-                                    <option value="<?= $munis['cod_muni'] ?>"><?= $munis['nombre_municipio'] ?></option>
-                                    <?php
-                                                                }
-                                        ?>
-
-                                  </select>
-                             </div>
-
-
-
-
-                            <div class="mb-3">
-
-                                <input type="submit" class="form-control btn btn-primary" id="btn_guardar"  name='btn_guardar' value='guardar'>
-                            </div>
-
-
-
-
+                        </div>
                         </form>
-
-
-
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
 
-                    </div>
+
                 </div>
             </div>
         </div>
 
         <!-- Button trigger fin -->
 
+
         <table id="tablax1" class="table table-hover table-striped" id="dataTable">
             <thead class="table-dark">
                 <tr>
-                    <th>Dpi</th>
+                    <th>cod_paciente</th>
                     <th>Nombre</th>
-                    <th>Direccion</th>
-                    <th>tel_casa</th>
-                    <th>tel_movil</th>
-                    <th>Email</th>
-                    <th>Fecha_nacimiento</th>
-                    <th>Edad</th>
-                    <th>Nivel Academico</th>
-                    <th>Municipio</th>
-                    <th>Procesos</th>
-
-
+                    <th>Cui</th>
+                    <th>Nit</th>
+                    <th>Teléfono</th>
+                    <th>Acciones</th>
 
                 </tr>
             </thead>
             <tbody>
                 <?php 
-                foreach($resultadoCiudadano as $datos){
+                foreach($resultadopacientes as $datos){
             ?>
                 <tr>
-                    <td><?=$datos['dpi']?></td>
-                    <td><?=$datos['nombre_ciudadano']?></td>
-                    <td><?=$datos['direccion']?></td>
-                    <td><?=$datos['tel_casa']?></td>
-                    <td><?=$datos['tel_movil']?></td>
-                    <td><?=$datos['email']?></td>
-                    <td><?=$datos['fecha_nacimiento']?></td>
-                    <td><?=$datos['edad']?></td>
-                    <td><?=$datos['nivel_academico']?></td>
-                    <td><?=$datos['nombre_municipio']?></td>
-                    <td><a href="<?=base_url("localizar_modificar_ciudadano/".$datos['dpi'])?>"><button type="button"
-                                class="btn btn-warning">Actualizar <i class="bi bi-pencil-square"></i> </button></a>
+                    <td><?=$datos['cod_paciente']?></td>
+                    <td><?=$datos['nombre1'].' '.$datos['nombre2'].' '.$datos['apellido1'] .' '.$datos['apellido2']?>
+                    </td>
+                    <td><?=$datos['cui']?></td>
+                    <td><?=$datos['nit']?></td>
+                    <td><?=$datos['telefono']?></td>
 
-                        <a href="<?=base_url("eliminar_ciudadano/".$datos['dpi'])?>"><button type="button"
+                    <td><a href="<?=base_url("localizar_modificar_paciente/".$datos['cod_paciente'])?>"><button
+                                type="button" class="btn btn-warning">Actualizar <i class="bi bi-pencil-square"></i>
+                            </button></a>
+
+                        <a href="<?=base_url("eliminar_paciente/".$datos['cod_paciente'])?>"><button type="button"
                                 class="btn btn-danger">Eliminar <i class="bi bi-trash3"></i></button></a>
                     </td>
                 </tr>

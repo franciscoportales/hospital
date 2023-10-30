@@ -77,7 +77,7 @@
                     </div>
 
 
-                  
+
 
                     <div class="mb-3">
                         <label for="lst_nivel_aca" class="form-label">Nivel Academico:</label>
@@ -97,7 +97,7 @@
 
 
 
-                    
+
                     <div class="mb-3">
                         <label for="lst_municipio" class="form-label">Municipio:</label>
                         <select class="form-select" name="lst_municipio">
@@ -115,7 +115,7 @@
                     </div>
 
 
-     
+
 
 
                     <div class="mb-3">

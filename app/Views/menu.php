@@ -22,79 +22,68 @@
 
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php" role="button"
-                aria-expanded="false">Ciudadanos</a>
+                aria-expanded="false">Aministracion</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Ver Pacientes</a></li>
-
-
-
-
-            </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php" role="button"
-                aria-expanded="false">Niveles Cademicos</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="<?=base_url('verNiveles')?>">Ver Niveles Académicos</a></li>
-
-
-
-            </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php" role="button"
-                aria-expanded="false">Regiones</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="<?=base_url('verRegiones')?>">Ver Regiones</a></li>
-
-
+                <li><a class="dropdown-item" href="<?=base_url('verUsuarios')?>">Usuarios</a></li>
             </ul>
         </li>
 
 
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php" role="button"
-                aria-expanded="false">Departamento</a>
+                aria-expanded="false">Secretaria</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="<?=base_url('verDeptos')?>">Ver Departamentos</a></li>
+                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Pacientes</a></li>
+            </ul>
+        </li>
 
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php" role="button"
+                aria-expanded="false">Medicos</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Egreso de Pacientes</a></li>
             </ul>
         </li>
 
 
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php" role="button"
-                aria-expanded="false">Municipios</a>
+                aria-expanded="false">Enfermeria</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="<?=base_url('verMunicipios')?>">Ver Municipios</a></li>
-
-
-
+                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Pacientes</a></li>
             </ul>
         </li>
-
-
 
 
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="index.php" role="button"
-                aria-expanded="false">Administracion</a>
+                aria-expanded="false">contabilidad</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">ver usuarios</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Eliminar usuario</a></li>
+                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Cargos</a></li>
+            </ul>
 
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Cobros</a></li>
+            </ul>
 
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#"></a></li>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Caja</a></li>
+            </ul>
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Bodega</a></li>
+            </ul>
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="<?=base_url('verPacientes')?>">Inventarios</a></li>
             </ul>
         </li>
+
+
+
+
+
+
 
 
 
