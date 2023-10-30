@@ -30,6 +30,10 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/inicio', 'Home::inicio');
+$routes->post('/login', 'Home::login');
+$routes->get('/salir', 'Home::salir');
+
 
 /*
  * --------------------------------------------------------------------
@@ -55,6 +59,15 @@ $routes->get('localizar_modificar_paciente/(:num)','ControllerPacientes::localiz
 $routes->get('eliminar_paciente/(:num)','ControllerPacientes::eliminarPaciente/$1');
 $routes->post('modificar_paciente','ControllerPacientes::modificarPaciente');
 $routes->post('guardar_paciente','ControllerPacientes::guardarPaciente');
+
+
+
+$routes->get('verEmpleados','ControllerEmpleados::cargarEmpleados');
+$routes->post('guardar_Empleados','ControllerEmpleados::guardarEmpleados');
+$routes->get('localizar_modificar_empleado/(:num)','ControllerEmpleados::localizarEmpleado/$1');              
+$routes->post('modificar_empleado','ControllerEmpleados::modificarEmpleado');
+$routes->get('eliminar_empleado/(:num)','ControllerEmpleados::eliminarEmpleados/$1');
+
 
 
 
